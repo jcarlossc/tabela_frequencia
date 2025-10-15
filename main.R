@@ -24,6 +24,10 @@ freq_absoluta <- table(idades)
 
 freq_absoluta
 
+# Frequência acumulada (F):
+freq_acumulada <- cumsum(as.vector(freq_absoluta))
+
+print(freq_acumulada)
 
 
 
