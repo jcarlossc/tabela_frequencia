@@ -34,5 +34,13 @@ freq_relativa <- prop.table(freq_absoluta) * 100
 
 round(freq_relativa, 2)
 
+# Frequência relativa acumulada (F%):
+freq_rel_acumulada <- cumsum(as.vector(freq_relativa))
+
+round(freq_rel_acumulada, 2)
+
+
+
+
 
 
