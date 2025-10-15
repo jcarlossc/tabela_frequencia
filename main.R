@@ -19,6 +19,7 @@
 # Vetor com idades.
 idades <- c(18, 19, 19, 20, 22, 22, 22, 22, 23, 23, 24, 25, 25, 26, 26, 27, 27, 27)
 
+# CONJUNTO DE FREQUÊNCIAS INDIVIDUAIS.
 # Frequência Absoluta (f):
 freq_absoluta <- table(idades)
 
@@ -44,6 +45,8 @@ freq_rel_acumulada <- cumsum(as.vector(freq_relativa))
 round(freq_rel_acumulada, 2)
 
 # ==============================================================
+
+# CALCULA DISTRIBUIÇÃO DE FREQUÊNCIAS(TUDO EM UM)
 
 # Instalar o pacote dplyr:
 # install.packages("dplyr")
