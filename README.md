@@ -2,7 +2,7 @@
 ## 📌 Descrição do Projeto
 
 Este projeto demonstra como construir e interpretar tabelas de frequência na linguagem R, utilizando conceitos fundamentais da estatística descritiva.
-O objetivo é organizar e resumir um conjunto de dados — neste caso, idades — em diferentes tipos de frequências: absoluta, acumulada, relativa e relativa acumulada.
+O objetivo é organizar e resumir um conjunto de dados, neste caso, idades, em diferentes tipos de frequências: absoluta, acumulada, relativa e relativa acumulada.
 
 Através desse estudo, é possível compreender melhor a distribuição dos dados, identificar padrões e tendências, além de visualizar graficamente a distribuição de frequências.
 
@@ -99,3 +99,4 @@ Este projeto está licenciado sob a MIT License.
 📌Twitter/X: https://x.com/jcarlossc1977
 
 ---
+
