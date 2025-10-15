@@ -27,9 +27,12 @@ freq_absoluta
 # Frequência acumulada (F):
 freq_acumulada <- cumsum(as.vector(freq_absoluta))
 
-print(freq_acumulada)
+freq_acumulada
 
+# Frequência relativa (f%):
+freq_relativa <- prop.table(freq_absoluta) * 100
 
+round(freq_relativa, 2)
 
 
 
