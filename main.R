@@ -22,26 +22,33 @@ idades <- c(18, 19, 19, 20, 22, 22, 22, 22, 23, 23, 24, 25, 25, 26, 26, 27, 27, 
 # Frequência Absoluta (f):
 freq_absoluta <- table(idades)
 
+# Visualizar frequência absoluta.
 freq_absoluta
 
 # Frequência acumulada (F):
 freq_acumulada <- cumsum(as.vector(freq_absoluta))
 
+# Visualizar frequência acumulada.
 freq_acumulada
 
 # Frequência relativa (f%):
 freq_relativa <- prop.table(freq_absoluta) * 100
 
+# Visualizar frequência relativa.
 round(freq_relativa, 2)
 
 # Frequência relativa acumulada (F%):
 freq_rel_acumulada <- cumsum(as.vector(freq_relativa))
 
+# Visualizar frequência relativa acumulada.
 round(freq_rel_acumulada, 2)
+
+# ==============================================================
 
 # Instalar o pacote dplyr:
 # install.packages("dplyr")
 
+# Executar o pacote dplyr:
 library(dplyr)
 
 # Criar tabela de frequência
@@ -58,5 +65,15 @@ tabela_freq <- data.frame(idades) %>%
 tabela_freq
 
 
+# Gráfico de frequência absoluta.
+barplot(
+  tabela_freq$frequencia,
+  names.arg = tabela_freq$idades,
+  main = "Gráfico de Frequência Absoluta",
+  xlab = "Idades",
+  ylab = "Frequência",
+  col = "skyblue",
+  border = "darkblue"
+)
 
 
