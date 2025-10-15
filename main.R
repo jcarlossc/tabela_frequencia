@@ -39,7 +39,23 @@ freq_rel_acumulada <- cumsum(as.vector(freq_relativa))
 
 round(freq_rel_acumulada, 2)
 
+# Instalar o pacote dplyr:
+# install.packages("dplyr")
 
+library(dplyr)
+
+# Criar tabela de frequência
+tabela_freq <- data.frame(idades) %>%
+  group_by(idades) %>%
+  summarise(frequencia = n()) %>%
+  mutate(
+    freq_acumulada = cumsum(frequencia),
+    freq_relativa = round((frequencia / sum(frequencia)) * 100, 1),
+    freq_rel_Acumulada = cumsum(freq_relativa)
+  )
+
+# Visualizar tabela
+tabela_freq
 
 
 
