@@ -1,5 +1,5 @@
 # 📌 Estudo sobre Tabelas de Frequência em R
-## 📌 Descrição do Projeto
+## Descrição do Projeto
 
 Este projeto demonstra como construir e interpretar tabelas de frequência na linguagem R, utilizando conceitos fundamentais da estatística descritiva.
 O objetivo é organizar e resumir um conjunto de dados, neste caso, idades, em diferentes tipos de frequências: absoluta, acumulada, relativa e relativa acumulada.
@@ -11,12 +11,20 @@ Através desse estudo, é possível compreender melhor a distribuição dos dado
 ## 📌 Conceitos Teóricos
 |Tipo de Frequência	| Símbolo |	Definição |
 | ------------------- | ------------------- | ------------------ |
+| Classes | k | São intervalos de valores que agrupam os dados. |
+| Pontos médios | pm | Valores que representam o centro do intervalo das classes. |
 | Frequência Absoluta |	f |	Número de vezes que um valor aparece no conjunto de dados. |
 | Frequência Acumulada |	F |	Soma acumulada das frequências absolutas até um determinado valor. |
 | Frequência Relativa | (%)	f%	| Percentual que representa a proporção de cada valor em relação ao total de observações. |
 | Frequência Relativa Acumulada | (%)	F% |	Soma acumulada dos percentuais até aquele valor. |
 
 Essas medidas são amplamente utilizadas em análises exploratórias de dados e visualização estatística.
+
+---
+
+## 📌 Histograma:
+
+
 
 ---
 
@@ -27,14 +35,6 @@ Antes de rodar o projeto, você precisa ter:
 * [RStudio](https://posit.co/download/rstudio-desktop/) instalado
 * Instalação da [Linguagem R:](https://informaticus77-r.blogspot.com/2025/09/blog-post.html)
 * Microtutorial [RStudio:](https://informaticus77-r.blogspot.com/2025/09/blog-post_8.html)
-
----
-
-## 📌 Pacotes Utilizados
-
-```
-install.packages("dplyr")
-```
 
 ---
 
@@ -99,4 +99,5 @@ Este projeto está licenciado sob a MIT License.
 📌Twitter/X: https://x.com/jcarlossc1977
 
 ---
+
 
