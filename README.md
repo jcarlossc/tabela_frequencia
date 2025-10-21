@@ -24,7 +24,7 @@ Essas medidas são amplamente utilizadas em análises exploratórias de dados e 
 
 ## 📌 Histograma:
 
-
+<img src="histogramas/histograma.png">
 
 ---
 
@@ -99,5 +99,6 @@ Este projeto está licenciado sob a MIT License.
 📌Twitter/X: https://x.com/jcarlossc1977
 
 ---
+
 
 
