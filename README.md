@@ -22,6 +22,17 @@ Essas medidas são amplamente utilizadas em análises exploratórias de dados e 
 
 ---
 
+## 📌 Tabela de distribuição de frequências do projeto
+| id | Classe | Ponto_Médio | Freq_Absoluta | Freq_Relativa | Freq_Acumulada | Freq_Relativa_Acumulada |
+| -- | ------ | ----------- | ------------- | ------------- | -------------- | ------------------ |
+| 1  | 18-20 |         19  |           3   |      16.67 %   |          3     |         16.67 %     |
+| 2  | 20-22 |         21  |           1   |       5.56 %   |          4     |         22.23 %     |
+| 3  | 22-24 |         23  |           6   |      33.33 %   |         10     |         55.56 %      |
+| 4  | 24-26 |          25 |            3   |      16.67 % |           13    |          72.23 %     |
+| 5  | 26-28 |         27  |           5   |      27.78 %   |         18     |        100.01 %      |
+
+---
+
 ## 📌 Histograma:
 
 <img src="histogramas/histograma.png">
@@ -100,6 +111,7 @@ Este projeto está licenciado sob a MIT License.
 📌Twitter/X: https://x.com/jcarlossc1977
 
 ---
+
 
 
 
